@@ -1,0 +1,69 @@
+body{
+    background-color: #1c1d33;
+    padding: 0;
+    margin: 0 ;
+}
+
+.links{
+    color: wheat;
+    padding-bottom: 3rem;
+    text-decoration: none;
+
+    
+}
+
+.links:hover{
+    color: #ffb106;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.main-text{
+    color: white;
+    width: 60%;
+    padding: 30px;
+}
+
+.main-text h1{
+    font-size: 70px;
+    line-height: 70px;
+    margin: 10px 0;
+}
+
+.main-text h2{
+    font-size: 40px;
+    line-height: 40px;
+    color: #ffb106;
+    margin: 10px 0;
+}
+
+.main-text p{
+    font-size: 20px;
+    line-height: 30px;
+    margin:  0px;
+}
+
+.sub-section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#unity-build-title { color: white;float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
+#unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
+#unity-mobile-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
+#unity-container { position: relative }
+#unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, 0%) }
+#unity-container.unity-mobile { width: 100%; height: 100% }
